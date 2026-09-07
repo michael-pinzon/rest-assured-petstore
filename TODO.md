@@ -19,7 +19,7 @@ Este archivo conserva el plan de trabajo si el contexto de la conversación se c
 
 - [x] **F0 — Base del repositorio:** inicializar Git en `Intellij/rest-assured`, usar `main` como rama principal, crear el repositorio remoto público `michael-pinzon/rest-assured-petstore` con GitHub CLI y enlazar `origin`.
 - [x] **F1 — Build Maven:** completar `pom.xml` con Rest Assured, TestNG, compilación Java 21 y Surefire; comprobar que Maven descubre tests TestNG.
-- [ ] **F2 — Soporte reutilizable:** crear configuración de la API, cliente Rest Assured y fábricas de datos únicas para que cada prueba pueda preparar su propio estado sin depender de otra.
+- [x] **F2 — Soporte reutilizable:** crear configuración de la API, cliente Rest Assured y fábricas de datos únicas para que cada prueba pueda preparar su propio estado sin depender de otra.
 - [ ] **F3 — Usuarios y sesión:** automatizar crear usuario, login de un usuario creado durante la misma prueba y logout; cada operación debe tener un test distinto y aserciones de contrato.
 - [ ] **F4 — Mascotas:** automatizar el listado filtrado por `available` y la consulta de una mascota concreta seleccionada de forma independiente; validar respuesta y datos.
 - [ ] **F5 — Orden:** automatizar la creación de una orden para una mascota disponible seleccionada dentro de la prueba; validar la orden creada.
